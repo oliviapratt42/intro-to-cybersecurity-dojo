@@ -29,4 +29,4 @@ In this level, you will learn to XOR!
 We'll give you a shared _key_, `XOR` a secret number with it, and expect you to recover the number.
 
 ----
-**HINT:** Use Python's `^` operator to XOR integers and hexadecimal numbers!
+**HINT:** Use Python's `^` operator to XOR integers (including hexadecimal values)!
