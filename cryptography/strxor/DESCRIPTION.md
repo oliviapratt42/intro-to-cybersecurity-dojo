@@ -2,7 +2,7 @@ Okay, now you know how to XOR ASCII characters.
 This is a critical step as we build up to our first cryptosystem, but now, we need to XOR entire ASCII strings!
 Let's try this.
 
-Like Python provides the `^` operator to XOR integers, and a Python library called PyCryptoDome provides a function called **strxor** to XOR two strings of characters together.
+Python’s `^` operator lets you XOR integers, but if you want to XOR entire byte strings or ASCII strings, you can use the `strxor` function from the PyCryptodome library.
 You can import it in Python using [`from Crypto.Util.strxor import strxor`](https://pycryptodome.readthedocs.io/en/v3.23.0/src/util/util.html#crypto-util-strxor-module).
 
 XORing two strings is done byte by byte, just like XORing two bytes is done bit by bit.
